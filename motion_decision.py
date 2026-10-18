@@ -7,5 +7,6 @@ def decide_motion(distance):
         return "GO"
 
 
-distance = float(input("Enter distance in meters: "))
-print(distance, decide_motion(distance))
+if __name__ == "__main__":
+    distance = float(input("Enter distance in meters: "))
+    print(distance, decide_motion(distance))
